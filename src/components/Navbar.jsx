@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import PixabayContext from '../context/PixabayContext'
 const Navbar = () => {
     // const [first, setfirst] = useState('')
-    const {fetchImageByCategory,setQuery} = useContext(PixabayContext)
+    const {fetchImageByCategory,setQuery} = useContext(PixabayContext);
   return (
     <>
     
@@ -33,7 +33,7 @@ const Navbar = () => {
     </button>
     </div>
     <div className="container" style={{width:'800px'}}>
-    <input type="text" onChange={()=>setQuery(e.target.value)} class="form-control bg-dark text-light" aria-describedby="emailHelp" />
+    <input type="text" onChange={(e)=>setQuery(e.target.value)} class="form-control bg-dark text-light mb-5" aria-describedby="emailHelp"></input>
     </div>
     </>
   )

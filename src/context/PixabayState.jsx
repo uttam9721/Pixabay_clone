@@ -3,7 +3,7 @@ import PixabayContext from './PixabayContext';
 
 const PixabayState = (props) => {
     const [imageData, setImageData] = useState([]);
-    const [query, setQuery] = useState('londan');
+    const [query, setQuery] = useState('nature');
     const api_key = "46045153-9dec64d61171f79f307f59715";
 
     useEffect(() => {
