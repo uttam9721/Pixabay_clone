@@ -32,8 +32,8 @@ const Navbar = () => {
     Food
     </button>
     </div>
-    <div className="container" style={{width:'800px'}}>
-    <input type="text" onChange={(e)=>setQuery(e.target.value)} class="form-control bg-dark text-light mb-5" aria-describedby="emailHelp"></input>
+    <div className="container">
+    <input type="text" placeholder="Search here..."  onChange={(e)=>setQuery(e.target.value)} class=" form-control bg-dark text-light mb-5" aria-describedby="emailHelp"  style={{ width: "100px", display: "inline-block" }}></input>
     </div>
     </>
   )
