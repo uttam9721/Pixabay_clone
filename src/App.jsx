@@ -17,7 +17,6 @@
 import React from 'react';
 import Images from './components/Images';
 import Navbar from './components/Navbar';
-// import './App.css'; // Ensure you create or include this CSS file
 
 const App = () => {
   return (
